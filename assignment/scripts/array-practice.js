@@ -86,8 +86,8 @@ console.log('Foods are now', iOnlyEat);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-iOnlyEat.splice(1,1);
-console.log('Removed the send food, foods are now', iOnlyEat);
+iOnlyEat.splice(1,1,'peppers');
+console.log('Replaced the second food, foods are now', iOnlyEat);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
